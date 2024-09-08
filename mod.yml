@@ -1,0 +1,47 @@
+assets:
+- method: copy
+  name: scripts/1fmEarlySkip.lua
+  source:
+  - name: 1FMMods/scripts/1fmEarlySkip.lua
+- method: copy
+  name: scripts/1fmFasterAnims.lua
+  source:
+  - name: 1FMMods/scripts/1fmFasterAnims.lua
+- method: copy
+  name: scripts/1fmFasterDialogue.lua
+  source:
+  - name: 1FMMods/scripts/1fmFasterDialogue.lua
+- method: copy
+  name: scripts/1fmSaveAnywhere.lua
+  source:
+  - name: 1FMMods/scripts/1fmSaveAnywhere.lua
+- method: copy
+  name: scripts/1fmUnskippable.lua
+  source:
+  - name: 1FMMods/scripts/1fmUnskippable.lua
+- method: copy
+  name: scripts/io_packages/EpicGamesGlobal.lua
+  source:
+  - name: 1FMMods/scripts/io_packages/EpicGamesGlobal.lua
+- method: copy
+  name: scripts/io_packages/EpicGamesJP.lua
+  source:
+  - name: 1FMMods/scripts/io_packages/EpicGamesJP.lua
+- method: copy
+  name: scripts/io_packages/SteamGlobal.lua
+  source:
+  - name: 1FMMods/scripts/io_packages/SteamGlobal.lua
+- method: copy
+  name: scripts/io_packages/SteamJP.lua
+  source:
+  - name: 1FMMods/scripts/io_packages/SteamJP.lua
+- method: copy
+  name: scripts/io_packages/template.lua
+  source:
+  - name: 1FMMods/scripts/io_packages/template.lua
+- method: copy
+  name: scripts/io_packages/VersionCheck.lua
+  source:
+  - name: 1FMMods/scripts/io_packages/VersionCheck.lua
+  title: 1fmAPQOL
+
