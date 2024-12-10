@@ -71,12 +71,12 @@ function _OnFrame()
 		local input = ReadInt(inputAddress)
 		local savemenuopen = ReadByte(saveOpenAddress)
 		if ReadByte(cutsceneFlagBase+3) < 0x53 or ReadByte(cutsceneFlagBase+3) > 0x6E then --Prevent after Genie Jafar to End of Agrabah
-			if input == 1793 and lastInput ~= 1793 and savemenuopen ~=4 and ReadByte(saveAnywhere) == 0 then
-				WriteByte(saveAnywhere, 1)
-				addgummi = 5
-			elseif input == 1793 and ReadByte(saveAnywhere) == 1 then
-				WriteLong(closeMenu, 0)
-			end
+			--if input == 1793 and lastInput ~= 1793 and savemenuopen ~=4 and ReadByte(saveAnywhere) == 0 then
+			--	WriteByte(saveAnywhere, 1)
+			--	addgummi = 5
+			--elseif input == 1793 and ReadByte(saveAnywhere) == 1 then
+			--	WriteLong(closeMenu, 0)
+			--end
 
 			if input == 3968 and lastInput ~= 3968 and ReadLong(closeMenu) == 0 then
 				InstantContinue()
