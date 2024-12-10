@@ -40,6 +40,10 @@ assets:
   source:
   - name: 1FMMods/scripts/io_packages/VersionCheck.lua
 - method: copy
+  name: scripts/1fmAPFixWarps.lua
+  source:
+  - name: 1FMModsCustom/scripts/1fmAPFixWarps.lua
+- method: copy
   name: scripts/1fmAPSaveAnywhere.lua
   source:
   - name: 1FMModsCustom/scripts/1fmAPSaveAnywhere.lua
